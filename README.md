@@ -1,3 +1,9 @@
+```
+ATTENTION: This package is not yet ready for use!
+
+For questions or suggestions please contact the original creator
+```
+
 # checkmail
 [Golang](http://golang.org/) package for email validation.
 
