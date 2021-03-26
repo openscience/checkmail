@@ -1,1 +1,47 @@
+// typical addresses (latin)
+firstname.lastname@domain.suffix
+firstname.firstname.lastname@domain.suffix
+firstname.lastname@subdomain.domain.suffix
 
+// typical addresses (With non latin letters)
+
+
+// with comment ('()' OR '<>')
+// with nested comments
+
+
+
+
+// valid traditional email addresses (source: https://en.wikipedia.org/wiki/International_email)
+Abc@example.com                                 // (English, ASCII)
+Abc.123@example.com                             // (English, ASCII)   
+user+mailbox/department=shipping@example.com    // (English, ASCII)
+!#$%&'*+-/=?^_`.{|}~@example.com                // (English, ASCII)
+"Abc@def"@example.com                           // (English, ASCII)
+"Fred\ Bloggs"@example.com                      // (English, ASCII)
+"Joe.\\Blow"@example.com                        // (English, ASCII)
+
+// valid international email addresses (source: https://en.wikipedia.org/wiki/International_email)
+用户@例子.广告                                    // (Chinese, Unicode)
+अजय@डाटा.भारत                                     // (Hindi, Unicode)
+квіточка@пошта.укр                              // (Ukrainian, Unicode)
+χρήστης@παράδειγμα.ελ                           // (Greek, Unicode)
+Dörte@Sörensen.example.com                      // (German, Unicode)
+коля@пример.рф                                  // (Russian, Unicode)
+
+// Valid email addresses (source: https://en.wikipedia.org/wiki/International_email)
+simple@example.com
+very.common@example.com
+disposable.style.email.with+symbol@example.com
+other.email-with-hyphen@example.com
+fully-qualified-domain@example.com
+user.name+tag+sorting@example.com               // (may go to user.name@example.com inbox depending on mail server)
+x@example.com                                   // (one-letter local-part)
+example-indeed@strange-example.com
+admin@mailserver1                               // (local domain name with no TLD, although ICANN highly discourages dotless email addresses[10])
+example@s.example                               // (see the List of Internet top-level domains)
+" "@example.org                                 // (space between the quotes)
+"john..doe"@example.org                         // (quoted double dot)
+mailhost!username@example.org                   // (bangified host route used for uucp mailers)
+user%example.com@example.org                    // (% escaped mail route to user@example.com via example.org)
+user-@example.org                               // (local part ending with non-alphanumeric character from the list of allowed printable characters)
