@@ -1,3 +1,7 @@
+// whitespace inside
+ab c.example.com
+
+
 // Invalid email addresses (source: https://en.wikipedia.org/wiki/Email_address)
 Abc.example.com                       // (no @ character)
 A@b@c@example.com                     // (only one @ is allowed outside quotation marks)
