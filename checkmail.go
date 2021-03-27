@@ -10,6 +10,22 @@ import (
 	"time"
 )
 
+/*
+SCHEMA:
++-------+---+--------+
+| local | @ | domain |
++-------+---+--------+
+
+type Address struct {
+	Local string
+	Domain string
+}
+
+func () String() string
+func () Local() string
+func () Domain() string
+*/
+
 type SmtpError struct {
 	Err error
 }
